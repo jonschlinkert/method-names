@@ -1,0 +1,56 @@
+{
+  "name": "method-names",
+  "description": "Returns an array of function property names from all enumerable properties on an object, own and inherited.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/method-names",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/method-names.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/method-names/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/method-names/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": [
+    "enumerable",
+    "fn",
+    "fns",
+    "function",
+    "functions",
+    "enumerable",
+    "inherited",
+    "object",
+    "own",
+    "array",
+    "method",
+    "method-names",
+    "methods",
+    "name",
+    "names",
+    "properties",
+    "property",
+    "prototype"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "*",
+    "verb": "~0.2.6",
+    "verb-tag-jscomments": "^0.1.4"
+  }
+}
