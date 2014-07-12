@@ -1,7 +1,7 @@
 {
   "name": "method-names",
   "description": "Returns an array of function property names from all enumerable properties on an object, own and inherited.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/method-names",
   "author": {
     "name": "Jon Schlinkert",
