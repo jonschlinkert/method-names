@@ -1,10 +1,46 @@
 {
   "name": "method-names",
-  "version": "0.1.1",
+  "description": "Returns an array of names from a module. Includes all enumerable properties with function values, own and inherited.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/method-names.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/method-names/blob/master/LICENSE"
+  },
+  "homepage": "https://github.com/jonschlinkert/method-names",
+  "authors": [
+    {
+      "name": "Jon Schlinkert",
+      "homepage": "https://github.com/jonschlinkert"
+    }
+  ],
   "main": [
     "index.js"
   ],
-  "ignore": [
-    "test"
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^5.2.0"
+  },
+  "keywords": [
+    "enumerable",
+    "fn",
+    "fns",
+    "function",
+    "functions",
+    "enumerable",
+    "inherited",
+    "object",
+    "own",
+    "array",
+    "method",
+    "method-names",
+    "methods",
+    "name",
+    "names",
+    "properties",
+    "property",
+    "prototype"
   ]
 }
